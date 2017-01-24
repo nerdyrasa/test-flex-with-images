@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #2d3c49;
+    font-size: 16px;
 }
 
 hr {
@@ -9,49 +10,46 @@ hr {
 
 header {
     height: 420px;
-    background: url(http://placehold.it/800x300) no-repeat center bottom;
+    background: url(../img/my-hero.jpeg) no-repeat center bottom;
     position: relative;
 }
 
 header a.logo {
-
     position: absolute;
     display: block;
     width: 50px;
     height: 50px;
     background: url(../img/udacity.svg);
     background-size: contain;
-    top: 20px;
+    top: 10px;
     left: 25px;
 }
 
 header div.hero {
     position: absolute;
-    /*width: 42%;*/
     top: 130px;
-    /*left: 55%;*/
 }
 
 header
 {
-    line-height: 1.2em;
     text-align: right;
     text-transform: uppercase;
-    letter-spacing: 5px;
 }
 
 header h1,
 header h2 {
     font-weight: 300;
-    margin-right: 20px;
 }
 
 header h1 {
-    font-size: 2em;
-    margin-top: 30px;
+    font-size: 2.2em;
+    margin: 30px 20px 0 0 ;
+    letter-spacing: 5px;
+    line-height: 1.5em;
 }
 header h2 {
     font-size: 1em;
+    margin: 0 20px 20px 0;
 }
 
 @media screen and (min-width: 800px) {
